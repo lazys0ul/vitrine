@@ -291,7 +291,9 @@ export class WindowMainScreen extends Component {
     render() {
         return (
             <div className={"w-full flex-grow z-20 max-h-full overflow-y-auto windowMainScreen" + (this.state.setDarkBg ? " bg-ub-drk-abrgn " : " bg-ub-cool-grey")}>
-                {this.props.addFolder ? displayTerminal(this.props.addFolder, this.props.openApp) : this.props.screen()}
+                {this.props.addFolder
+                    ? displayTerminal(this.props.addFolder, this.props.openApp)
+                    : (typeof this.props.screen === "function" ? this.props.screen() : null)}
             </div>
         )
     }
