@@ -5,7 +5,7 @@ import { displaySettings } from './components/apps/settings';
 import { displayChrome } from './components/apps/chrome';
 import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
-import { displayAboutRonak } from './components/apps/ronak';
+import { displayAboutRonak } from './components/apps/pranav';
 import { displayTerminalCalc } from './components/apps/calc';
 
 const apps = [

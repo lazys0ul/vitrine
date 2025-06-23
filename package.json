@@ -1,8 +1,8 @@
 {
-  "name": "ronak9patel-portfolio",
+  "name": "pranav__08-portfolio",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://ronak9patel.github.io/",
+  "homepage": "https://lazys0ul.github.io/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

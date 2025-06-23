@@ -72,7 +72,7 @@ To enable the contact form:
    Replace `your_user_id` and `your_service_id` with your actual values from EmailJS.
 
 ## Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=SpideyHere01/portfolio&type=Date)](https://star-history.com/#SpideyHere01/portfolio&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=lazys0ul/portfolio&type=Date)](https://star-history.com/#lazys0ul/portfolio&Date)
 
 ## Contributing
 Contributions are welcome! To contribute:
@@ -86,4 +86,5 @@ Contributions are welcome! To contribute:
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
 ---
-
+## Special Mentions 
+This project is inpired by https://github.com/SpideyHere01/My-Portfolio-

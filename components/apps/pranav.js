@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactGA from 'react-ga4';
 
-export class AboutRonak extends Component {
+export class AboutPranav extends Component {
 
     constructor() {
         super();
@@ -75,7 +75,7 @@ export class AboutRonak extends Component {
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
                 </div>
                 <div className='my-0.5 w-28 md:w-full h-8 px-2 md:px-2.5 flex' >
-                    <a href="https://github.com/SpideyHere01" target="_blank" rel="noreferrer noopener" className="w-full h-full flex items-center justify-center bg-gray-800 rounded hover:bg-gray-700 transition-colors">
+                    <a href="https://github.com/lazys0ul" target="_blank" rel="noreferrer noopener" className="w-full h-full flex items-center justify-center bg-gray-800 rounded hover:bg-gray-700 transition-colors">
                         <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" className="w-5 h-5 mr-2" />
                         <span className="text-white font-semibold">My GitHub</span>
                     </a>
@@ -106,10 +106,10 @@ export class AboutRonak extends Component {
     }
 }
 
-export default AboutRonak;
+export default AboutPranav;
 
-export const displayAboutRonak = () => {
-    return <AboutRonak />;
+export const displayAboutPranav = () => {
+    return <AboutPranav />;
 }
 
 
@@ -128,7 +128,7 @@ function About() {
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" mt-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a <span className=" font-medium">BCA Honors (AI/ML) student</span> at Galgotias University. I love building AI-powered tools and using technology to boost productivity and creativity.</li>
+                <li className=" list-pc">I'm a <span className=" font-medium">IMSc Mathematics and Computing student</span> at BIT Mesra. I love building AI-powered tools and using technology to boost productivity and creativity.</li>
                 <li className=" mt-3 list-building"> I enjoy exploring new technologies, building apps, and automating workflows.</li>
                 <li className=" mt-3 list-time"> When not coding, I travel, learn new things, and experiment with productivity hacks.</li>
                 <li className=" mt-3 list-star"> My passion is in AI, machine learning, and making life easier with code!</li>
@@ -149,10 +149,10 @@ function Education() {
             <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Galgotias University
+                        BIT Mesra
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2024 - Present</div>
-                    <div className=" text-sm md:text-base">BCA Honors (AI/ML)</div>
+                    <div className=" text-sm md:text-base">IMSc Maths and Computing</div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
@@ -226,51 +226,7 @@ function Skills() {
 
 function Projects() {
     const project_list = [
-        {
-            name: "Custom MusicPlayer",
-            date: "2025",
-            link: "https://github.com/SpideyHere01/Custom-MusicPlayer",
-            description: [
-                "Custom music player made with C# and Python."
-            ],
-            domains: ["c#", "python"]
-        },
-        {
-            name: "Discord Music Entry Bot",
-            date: "2025",
-            link: "https://github.com/SpideyHere01/Discord-music-entry-bot",
-            description: [
-                "When you join VC, the bot will automatically come and play intro music of your choice."
-            ],
-            domains: ["typescript", "discord.js"]
-        },
-        {
-            name: "Tentative (Tenta Social)",
-            date: "2025",
-            link: "https://github.com/SpideyHere01/Tentative",
-            description: [
-                "New Gen social media which isn't fully ready yet."
-            ],
-            domains: ["typescript", "react-native"]
-        },
-        {
-            name: "Aura Buddy",
-            date: "2025",
-            link: "https://github.com/SpideyHere01/Aura-Buddy",
-            description: [
-                "Discord economic bot for fun, games, and productivity."
-            ],
-            domains: ["python", "discord.js"]
-        },
-        {
-            name: "Personal Portfolio",
-            date: "2024",
-            link: "https://github.com/SpideyHere01/portfolio",
-            description: [
-                "Ubuntu-themed portfolio site."
-            ],
-            domains: ["next.js", "tailwindcss"]
-        }
+       
     ];
 
     const tag_colors = {
@@ -342,8 +298,8 @@ function Resume() {
             <div className="text-xl font-bold mb-4">Resume</div>
             <div className="text-gray-300 mb-4">Coming Soon!</div>
             <div className="flex space-x-4">
-                <a href="https://github.com/SpideyHere01" target="_blank" rel="noreferrer" className="underline text-blue-400">GitHub</a>
-                <a href="https://linkedin.com/in/ronakmeena" target="_blank" rel="noreferrer" className="underline text-blue-400">LinkedIn</a>
+                <a href="https://github.com/lazys0ul" target="_blank" rel="noreferrer" className="underline text-blue-400">GitHub</a>
+                <a href="https://linkedin.com/in/pranav0997" target="_blank" rel="noreferrer" className="underline text-blue-400">LinkedIn</a>
             </div>
         </div>
     )
