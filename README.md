@@ -81,6 +81,7 @@ To enable the contact form:
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=lazys0ul/portfolio&type=Timeline" />
  </picture>
 </a>
+
 ## Contributing
 Contributions are welcome! To contribute:
 1. Fork the repository
