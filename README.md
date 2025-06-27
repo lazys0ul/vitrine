@@ -72,8 +72,15 @@ To enable the contact form:
    Replace `your_user_id` and `your_service_id` with your actual values from EmailJS.
 
 ## Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=lazys0ul/portfolio&type=Date)](https://star-history.com/#lazys0ul/portfolio&Date)
+## Star History
 
+<a href="https://www.star-history.com/#lazys0ul/portfolio&Timeline">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=lazys0ul/portfolio&type=Timeline&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=lazys0ul/portfolio&type=Timeline" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=lazys0ul/portfolio&type=Timeline" />
+ </picture>
+</a>
 ## Contributing
 Contributions are welcome! To contribute:
 1. Fork the repository
